@@ -10,9 +10,15 @@
     <h1>Testes de tipos Permitivos</h1>
     <?php 
         // 0x = EXADECIMAL 0B = binário 0 = Octal
-        $num = (is_float( 9.9));
-       print "O número da variavel é $num ";
-       var_dump($num)
+       // $num = (is_float( 9.9));
+      // print "O número da variavel é $num ";
+       //var_dump($num)
+
+       $nome = "Adul aziz";
+       echo "Ola $nome \u{1f596} ";
+       const estado ="Antula";
+        print "Moro no estado de " .estado;
+
     ?>
     <script>
         // var num = 01010;
